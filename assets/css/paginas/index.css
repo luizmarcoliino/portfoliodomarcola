@@ -17,26 +17,26 @@ body {
   gap: var(--espaçamento-5);
 }
 
-.apresentecao_destaque {
+.apresentacao_destaque {
   display: flex;
   flex-direction: column;
   gap: var(--espaçamento-2);
 }
 
-.apresentecao_destaque .titulo_destaque {
+.apresentacao_destaque .titulo_destaque {
   font-size: var(--tamanho-fonte-1);
   color: var(--cor-preto-1);
   font-weight: 500;
 }
 
-.apresentecao_destaque .descricao_destaque {
+.apresentacao_destaque .descricao_destaque {
   font-size: var(--tamanho-fonte-3);
   color: var(--cor-cinza-1);
   font-weight: 400;
   line-height: 1.2;
 }
 
-.apresentecao_destaque .descricao_destaque .descricao_cor_destaque {
+.apresentacao_destaque .descricao_destaque .descricao_cor_destaque {
   color: var(--cor-verde-1);
   font-weight: 400;
 }
