@@ -54,28 +54,25 @@ body {
   max-width: 635px;
 }
 
-.sobre_destaque .descricao_destaque .icone_poppings {
+.link_poppings_destaque {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  vertical-align: middle;
+  gap: var(--espaçamento-1);
+  color: var(--cor-verde-1);
+  text-decoration: none;
 }
 
-.sobre_destaque .descricao_destaque .descricao_cor_destaque {
-  color: var(--cor-verde-1);
-  font-weight: 400;
+.link_poppings_destaque img {
+  width: 16px;
+  height: 16px;
 }
 
 .link_descricao_destaque {
   display: inline-flex;
   align-items: center;
   vertical-align: middle;
-  gap: var(--espaçamento-2);
+  gap: var(--espaçamento-1);
   color: var(--cor-preto-1);
   text-decoration: none;
-  font-weight: 400;
-}
-
-.link_descricao_destaque img {
-  width: 16px;
-  height: 16px;
 }
