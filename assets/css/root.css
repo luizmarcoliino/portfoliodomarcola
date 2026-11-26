@@ -1,10 +1,10 @@
 :root {
-  --cor-fundo-1: #FAFAFA;
+  --cor-fundo-1: #FFFFFF;
   --cor-fundo-2: #F8F8F8;
 
   --cor-preto-1: #0A0A0A;
 
-  --cor-cinza-1: #b6b6b6;
+  --cor-cinza-1: #737373;
   --cor-cinza-2: #F3F3F3;
   --cor-cinza-3: #e7e7e7;
 
@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: 'Poppins';
-  src: url(../font/fonte-poppings-400.woff2) format("woff2"); 
+  src: url(../font/fonte-poppings-400.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;

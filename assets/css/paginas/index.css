@@ -23,8 +23,21 @@ body {
 
 .apresentacao_destaque {
   display: flex;
+  align-items: center;
+  gap: var(--espaçamento-3);
+}
+
+.foto_destaque {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nome_destaque {
+  display: flex;
   flex-direction: column;
-  gap: var(--espaçamento-2);
+  gap: var(--espaçamento-1);
 }
 
 .apresentacao_destaque .titulo_destaque {
@@ -37,7 +50,6 @@ body {
   font-size: var(--tamanho-fonte-3);
   color: var(--cor-cinza-1);
   font-weight: 400;
-  line-height: 1.8;
 }
 
 .apresentacao_destaque .descricao_destaque .descricao_cor_destaque {
@@ -55,6 +67,7 @@ body {
   font-size: var(--tamanho-fonte-3);
   color: var(--cor-cinza-1);
   font-weight: 400;
+  line-height: 1.8;
   max-width: 635px;
 }
 
@@ -78,5 +91,67 @@ body {
   vertical-align: middle;
   gap: var(--espaçamento-1);
   color: var(--cor-preto-1);
+  text-decoration: underline;
+  text-decoration-color: var(--cor-cinza-3);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s;
+}
+
+
+.projeto_destaque {
+  display: flex;
+  align-items: center;
+  gap: var(--espaçamento-3);
+  border-radius: 14px;
   text-decoration: none;
+  outline-offset: 4px;
+}
+
+.moldura_projeto {
+  flex-shrink: 0;
+  padding: var(--espaçamento-1);
+  border-radius: 14px;
+  background-color: rgba(10, 10, 10, 0.025);
+  box-shadow: inset 0 0 0 1px var(--cor-cinza-3);
+  transition: box-shadow 0.15s;
+}
+
+.projeto_destaque:hover .moldura_projeto {
+  box-shadow: inset 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+.icone_projeto {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: #F3F3F3;
+  box-shadow: inset 0 0 0 1px var(--cor-cinza-3);
+}
+
+.icone_projeto img {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  outline-offset: -1px;
+}
+
+.texto_projeto {
+  font-size: var(--tamanho-fonte-3);
+  line-height: 1.4;
+}
+
+.nome_projeto {
+  display: flex;
+  align-items: center;
+  gap: var(--espaçamento-1);
+  color: var(--cor-preto-1);
+}
+
+.descricao_projeto {
+  display: block;
+  font-size: var(--tamanho-fonte-4);
+  color: var(--cor-cinza-1);
 }
